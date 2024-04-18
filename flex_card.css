@@ -45,6 +45,8 @@ body {
 .card .card_image img {
   width: 100%;
   margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .card .card_info {
   margin-top: 10px;
