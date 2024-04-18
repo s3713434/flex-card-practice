@@ -1,2 +1,2 @@
 # flex-card-practice
-using HTML+CSS
+This practice using HTML and SASS
