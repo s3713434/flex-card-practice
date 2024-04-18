@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Press+Start+2P&display=swap');
+
+* {
+  font-family: "Jersey 20", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(61, 64, 64);
+}
+
+.flex {
+  display: flex;
+}
+
+.title {
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 60px;
+  text-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+  color: rgb(211, 211, 211);
+}
+
+.container {
+  justify-content: center;
+}
+
+.card {
+  max-width: 300px;
+  max-height: 350px;
+  background-color: rgb(40, 40, 40);
+  color: #fff;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin: 20px;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  transition: all 0.5s;
+  font-size: 20px;
+
+  &:hover {
+    max-width: 400px;
+    max-height: 450px;
+  }
+
+  .card_image img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+
+  .card_info {
+    margin-top: 10px;
+
+    p {
+      flex: 1;
+    }
+  }
+
+  button {
+    min-width: 80px;
+    min-height: 30px;
+    border-radius: 4px;
+    border-style: hidden;
+    background-color: rgb(74, 72, 72);
+    color: #fff;
+
+    &:hover {
+      box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    }
+  }
+
+  &:nth-child(2) {
+    background-color: rgb(98, 28, 98);
+  }
+
+  &:nth-child(3) {
+    background-color: rgb(42, 34, 100);
+  }
+
+  &:nth-child(4) {
+    background-color: rgb(40, 122, 147);
+  }
+}
+
+
+.wrapper {
+  flex-wrap: wrap;
+}
